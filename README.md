@@ -1,18 +1,13 @@
-# ADSPYLIB sales website
+# ADSPYLIB landing page
 
-Open `index.html` in a browser. No install or build is needed.
+Open index.html in a browser. No install or build required.
 
-## Before publishing
+The page follows the simple sales-page structure of the supplied Yeswo reference, with original ADSPYLIB content and artwork.
 
-Edit `config.js`:
-- `whatsapp`: your official ADSPYLIB number, international digits without `+`.
-- `email`: optional fallback email.
-- `priceLabel`: confirmed price and license duration, or leave empty for inquiry pricing.
+WhatsApp contact: +212 679-093864. All contact buttons open a draft message; the visitor sends it themselves.
 
-Order buttons open WhatsApp when configured, then email as a fallback. Without either, they open an honest request dialog with a copy button. Orders are not transmitted or stored in this state.
+The main image is bundled at assets/adspylib-preview.png. No video is displayed now. When your promotional video is ready, set videoUrl in config.js to its URL or a local file path such as assets/promo.mp4. The image then becomes its poster. The video has native controls and does not autoplay.
 
-The interactive product preview is illustrative, not the actual extension. Start scan and View creative demonstrate the page only. No fabricated testimonials, revenue figures or profitability guarantees are included.
+The brand icon and Cairo font load online. The page has system-font fallbacks.
 
-Local preview: `python -m http.server 5173 --bind 127.0.0.1` in this folder, then visit http://127.0.0.1:5173.
-
-Files are static and can be uploaded to any static web host. Typography loads from Google Fonts, with local system fallback. All illustration artwork is CSS; no remote image assets required.
+Price: 150 MAD for a lifetime license, confirmed by the owner. Orders are handled through WhatsApp.

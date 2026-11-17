@@ -1,6 +1,5 @@
-// Set official contact details here before publishing. Phone: international digits, no +.
 window.ADSPYLIB_CONFIG = {
-  whatsapp: '',
-  email: '',
-  priceLabel: '',
+  whatsapp: '212679093864',
+  // Add the real promotional video URL here when ready. Leave empty to show the image.
+  videoUrl: '',
 };
