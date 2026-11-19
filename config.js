@@ -1,5 +1,5 @@
 window.ADSPYLIB_CONFIG = {
   whatsapp: '212679093864',
-  // Add the real promotional video URL here when ready. Leave empty to show the image.
-  videoUrl: '',
+  // Promotional video. The existing hero image is used as its poster.
+  videoUrl: 'assets/adspylib-promo.mp4',
 };
