@@ -4,6 +4,7 @@
   // A single installation per page, even if this file is included twice.
   if (window.__ADSPYLIB_META_PIXEL__) return;
   window.__ADSPYLIB_META_PIXEL__ = true;
+  window.__ADSPYLIB_META_PIXEL_VERSION__ = '2026-11-24.2';
 
   // Meta Pixel base code. Queue events while the asynchronous library loads.
   !function (f, b, e, v, n, t, s) {
