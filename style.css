@@ -35,3 +35,15 @@ body{background-image:radial-gradient(ellipse 460px 360px at 76% 15%,rgba(37,99,
 .price-offer small{color:#cbd5e1;font-size:12px}
 .safety-link{color:var(--blue);text-decoration:underline;text-underline-offset:3px;display:inline-block}
 @media(max-width:580px){.price-offer{max-width:350px;padding:20px}.price-offer strong{font-size:66px}.price-offer p>span{font-size:22px}}
+/* Original scan screenshots, linked at full size. */
+.scan-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:20px 0}
+.scan-gallery figure{margin:0;min-width:0;border:1px solid #334155;border-radius:12px;overflow:hidden;background:#0f172a}
+.scan-gallery figure>a{display:flex;align-items:center;justify-content:center;min-height:180px;padding:10px;background:#111827;transition:background .2s}
+.scan-gallery figure>a:hover{background:#1e293b}
+.scan-gallery img{display:block;width:100%;height:165px;object-fit:contain}
+.scan-gallery figcaption{padding:10px 12px;border-top:1px solid #334155;color:#cbd5e1;font-size:13px;text-align:center;line-height:1.7}
+.scan-gallery .scan-report{grid-column:1/-1}
+.scan-gallery .scan-report>a{padding:0;min-height:0}
+.scan-gallery .scan-report img{height:auto;max-height:none}
+.faq .scan-note{font-size:13px;color:#94a3b8}
+@media(max-width:580px){.scan-gallery{grid-template-columns:1fr}.scan-gallery .scan-report{grid-column:auto}.scan-gallery figure>a{min-height:150px}.scan-gallery img{height:150px}}
